@@ -1,0 +1,16 @@
+
+version: 2
+
+seeds:
+  - name: stasiun_gempa_banjarnegara_2013_2017
+    description: "Data gempa yang direkam stasiun gempa Banjarnegara dari tahun 2013 sampai 2017"
+    columns:
+      - name: bulan
+        tests:
+          - not_null
+      - name: tahun
+        tests:
+          - not_null
+      - name: jumlah_gempa
+        tests:
+          - not_null

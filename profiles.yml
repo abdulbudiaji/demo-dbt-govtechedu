@@ -1,0 +1,14 @@
+demo:
+  target: development
+  outputs:
+    development:
+      type: sqlite
+      database: 'demo_db'
+      schema: 'main'
+      schemas_and_paths:
+        main: 'data/etl.db'
+      schema_directory: 'data'
+      threads: 1
+      timeout_seconds: 600
+      priority: interactive
+      retries: 1

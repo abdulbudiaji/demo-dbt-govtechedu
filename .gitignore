@@ -1,0 +1,6 @@
+*.swp
+target/
+dbt_modules/
+logs/
+data/
+.user.yml

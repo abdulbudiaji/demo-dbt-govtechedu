@@ -1,0 +1,31 @@
+
+version: 2
+
+models:
+  - name: gempa_bulan_ganjil
+    description: "Total gempa yang terjadi setiap bulan ganjir dari tahun 2013 sampai 2017"
+    columns:
+      - name: bulan
+        tests:
+          - not_null
+      - name: total_gempa
+        tests:
+          - not_null
+  - name: gempa_bulan_genap
+    description: "Total gempa yang terjadi setiap bulan ganjir dari tahun 2013 sampai 2017"
+    columns:
+      - name: bulan
+        tests:
+          - not_null
+      - name: total_gempa
+        tests:
+          - not_null
+  - name: gempa_bulanan
+    description: "Total gempa yang terjadi per bulan dari tahun 2013 sampai 2017"
+    columns:
+      - name: bulan
+        tests:
+          - not_null
+      - name: total_gempa
+        tests:
+          - not_null

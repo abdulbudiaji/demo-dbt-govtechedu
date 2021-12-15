@@ -1,0 +1,8 @@
+
+version: 2
+
+macros:
+  - name: ini_bulan_ganjil
+    description: filter bulan-bulan ganjil
+  - name: ini_bulan_genap
+    description: filter bulan-bulan genap
